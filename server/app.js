@@ -26,5 +26,6 @@ app.use(compression());
 
 app.use('/api', routes.hello);
 app.use('/api/users', routes.users);
+app.use('/api/suggestions', routes.suggestions);
 
 module.exports = app;
